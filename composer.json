@@ -1,17 +1,18 @@
 {
-    "name": "swordfly1979/print",
-    "minimum-stability": "dev",
-    "description": "PHP打印扩展",
+    "name": "swordfly1979/library",
+    "description": "一个扩库",
     "type": "library",
-    "license": "Apache-2.0",
     "authors": [
-      {
-          "name": "swordfly1979"
-      }
+        {
+            "name": "swordfly1979",
+            "email": "7115670@qq.com"
+        }
     ],
-    "autoload": {
-        "files": [
-          "./src/print.php"
-        ]
-      }
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "psr-4": {
+            "swordfly1979\\":"src/"
+        }
+    }
 }

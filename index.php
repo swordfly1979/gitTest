@@ -1,8 +1,5 @@
 <?php
-require('./vendor/autoload.php');
-$arr=[
-    ['name'=>'zhangsan','age'=>21],
-    ['name'=>'lisi','age'=>22]
-];
+include './vendor/autoload.php';
+use swordfly1979\str\Str;
 
-pt($arr);
+Str::make();
