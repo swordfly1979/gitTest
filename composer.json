@@ -1,0 +1,16 @@
+{
+    "name": "swordfly1979/print",
+    "description": "PHP打印扩展",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+      {
+          "name": "swordfly1979"
+      }
+    ],
+    "autoload": {
+        "files": [
+          "./src/print.php"
+        ]
+      }
+}
