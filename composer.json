@@ -1,6 +1,6 @@
 {
     "name": "swordfly1979/print",
-    "version":"1.0.0",
+    "minimum-stability": "dev",
     "description": "PHP打印扩展",
     "type": "library",
     "license": "Apache-2.0",
